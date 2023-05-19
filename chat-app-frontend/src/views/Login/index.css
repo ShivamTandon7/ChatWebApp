@@ -1,0 +1,23 @@
+.login {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(56, 67, 223);
+}
+
+.login-form {
+  margin: auto;
+  > form > input {
+    height: 30px;
+    width: 350px;
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+  > form > button {
+    height: 36px;
+    width: 55px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+  }
+}

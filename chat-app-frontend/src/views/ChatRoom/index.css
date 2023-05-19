@@ -1,0 +1,37 @@
+.chat-room {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+}
+
+.postMessage {
+  margin: auto;
+  margin-top: 1px;
+  > form > input {
+    height: 30px;
+    width: 350px;
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+  > form > button {
+    height: 36px;
+    width: 55px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+  }
+}
+
+.body {
+  display: flex;
+}
+
+.data-table {
+  margin-left: 722px;
+  background-color: grey;
+  color: black;
+  width: 365px;
+}
